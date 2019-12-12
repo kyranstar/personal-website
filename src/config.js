@@ -1,12 +1,12 @@
 const profile = {
-  fullName: 'Website Owner',
-  description: 'FRONT-END DEVELOPER',
+  fullName: 'Kyran Adams',
+  description: 'Data Scientist, Machine Learning Researcher, and Backend Software Developer',
   // The basepath is the assets folder
   /// the file sould be imported in assets-import.js
   avatarPath: 'avatar.svg',
   about: {
-    title: `HEY THERE! 
-    I'M WEBSITE OWNER`,
+    title: `Hey There! 
+    I'm Kyran Adams.`,
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
    
@@ -14,52 +14,40 @@ const profile = {
     findMeOn: [
       {
         iconName: 'location',
-        text: 'Location, Place',
+        text: 'Houston, TX; Seattle, WA',
         url: '',
         hoverColor: '#546e7a'
       },
       {
         iconName: 'twitter',
-        text: '@username',
-        url: 'https://twitter.com/username',
+        text: '@Kyran_Adams',
+        url: 'https://twitter.com/Kyran_Adams',
         hoverColor: '#1da1f2'
       },
       {
         iconName: 'email',
-        text: 'email@email.com',
-        url: 'mailto://email@email.com',
+        text: 'kpa1@rice.edu',
+        url: 'mailto://kpa1@rice.edu',
         hoverColor: '#546e7a'
-      },
-      {
-        iconName: 'lock',
-        text: '@kuser',
-        url: 'https://keybase.io/kuser',
-        hoverColor: '#e9641c'
       }
     ]
   },
   social: [
     {
       iconName: 'twitter',
-      url: 'https://twitter.com/username',
+      url: 'https://twitter.com/Kyran_Adams',
       text: "I'm on Twitter",
       hoverColor: '#1da1f2'
     },
     {
-      iconName: 'telegram',
-      url: 'https://t.me/username',
-      text: "I'm on Telegram",
-      hoverColor: '#0088cc'
-    },
-    {
       iconName: 'github',
-      url: 'https://github.com/username',
+      url: 'https://github.com/kyranstar',
       text: "I'm on Github",
       hoverColor: '#000'
     },
     {
       iconName: 'email',
-      url: 'mailto:email@email.co',
+      url: 'mailto:kpa1@rice.edu',
       text: 'Send me an email',
       hoverColor: '#000'
     }
